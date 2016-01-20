@@ -1,0 +1,14 @@
+body {
+  margin: 1px;
+}
+.jumbotron {
+  background-color: #42A5F5;
+  color: #fff;
+}
+div.col-md-8 {
+  background-color: #cffbff;
+}
+
+div.col-xs-6 {
+  background-color: #cffb66;
+}
