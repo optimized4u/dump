@@ -1,0 +1,49 @@
+{
+  "cars": {
+    "_id": "Schema.Types.ObjectId",
+    "manufacturer_id": "Schema.Types.ObjectId",
+    "model": "String"
+  },
+  "circuits": {
+    "_id": "Schema.Types.ObjectId",
+    "name": "String"
+  },
+  "levels": {
+    "_id": "Schema.Types.ObjectId",
+    "name": "String"
+  },
+  "manufacturer": {
+    "_id": "Schema.Types.ObjectId",
+    "name": "String"
+  },
+  "user_records": {
+    "_id": "Schema.Types.ObjectId",
+    "circuits_id": "Schema.Types.ObjectId",
+    "tracks_id": "Schema.Types.ObjectId",
+    "laps": "Number",
+    "levels_id": "Schema.Types.ObjectId",
+    "series_id": "Schema.Types.ObjectId",
+    "manufacturers_id": "Schema.Types.ObjectId",
+    "cars_id": "Schema.Types.ObjectId",
+    "fastest-lap": "Date",
+    "race-time": "Date",
+    "car_pr": "Number",
+    "date": "Date.Now()",
+    "race_distance": "function"
+  },
+  "series": {
+    "_id": "Schema.Types.ObjectId",
+    "name": "String"
+  },
+  "tracks": {
+    "_id": "Schema.Types.ObjectId",
+    "name": "String"
+  },
+  "distance": {
+    "_id": "Schema.Types.ObjectId",
+    "circuits_id": "Schema.Types.ObjectId",
+    "tracks_id": "Schema.Types.ObjectId",
+    "miles": "Number",
+    "kilometers": "Number"
+  }
+}
